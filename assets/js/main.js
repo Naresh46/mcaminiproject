@@ -37,7 +37,6 @@
    * Easy on scroll event listener 
    */
   const onscroll = (el, listener) => {
-    alert('Onscroll event');
     el.addEventListener('scroll', listener)
   }
 
